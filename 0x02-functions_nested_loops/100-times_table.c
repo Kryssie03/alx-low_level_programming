@@ -18,11 +18,11 @@ void print_times_table(int n)
 			_putchar(',');
 			_putchar(' ');
 
-			prod = num * multi;
 			if (n > 15 || n < 0)
 			{
 				continue;
 			}
+			prod = num * multi;
 			else if (prod <= n)
 			{
 				_putchar(' ');
