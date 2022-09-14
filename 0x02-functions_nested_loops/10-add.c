@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- * _add - function to add integers
+ * add - function to add integers
+ * @num1: argument of function
+ * @num2: argument of function
  *
  * Return: 0
  */
