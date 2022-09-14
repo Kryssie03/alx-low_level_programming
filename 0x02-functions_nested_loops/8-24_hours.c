@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_bauer - funtion to print every minutes of the day starting from 00:00 
+ * jack_bauer - funtion to print every minutes of the day starting from 00:00
  * to 23:59
  * Return: 0
  */
@@ -11,9 +11,9 @@ void jack_bauer(void)
 	int min_remainder = min % 10;
 	int hours_remainder = hours % 10;
 
-	for (min = '0'; min <= 59; min++)
+	for (hours = '0'; hours <= 23; hours++)
 	{
-		for (hours = '0'; hours <= 23; hours++)
+		for (min = '0'; min <= 59; min++)
 		{
 			_putchar((hours / 10) + '0');
 			_putchar(hours_remainder + '0');
@@ -22,6 +22,6 @@ void jack_bauer(void)
 			_putchar(min_remainder + '0');
 		}
 		_putchar('\n');
-		return ;
+		return;
 	}
 }
