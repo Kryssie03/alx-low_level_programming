@@ -2,7 +2,7 @@
 /**
  *print_alphabet - function to print alphabets in lowercase
  *
- * Return: Always 0
+ * Return: 0
  */
 void print_alphabet(void)
 {
@@ -10,7 +10,7 @@ void print_alphabet(void)
 
 	for (c='a'; c<='z'; c++)
 	{
-	      	_putchar(c);
-	} 	
+	       _putchar(c);
+	}
 _putchar('\n');
 }
