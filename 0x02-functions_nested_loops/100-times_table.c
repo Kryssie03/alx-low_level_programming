@@ -23,7 +23,7 @@ void print_times_table(int n)
 				continue;
 			}
 			prod = num * multi;
-			else if (prod <= n)
+			 if (prod <= n)
 			{
 				_putchar(' ');
 			}
