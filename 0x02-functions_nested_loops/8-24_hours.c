@@ -11,9 +11,9 @@ void jack_bauer(void)
 	int min_remainder = min % 10;
 	int hours_remainder = hours % 10;
 
-	for (hours = '0'; hours <= 23; hours++)
+	for (min = '0'; min <= 59; min++)
 	{
-		for (min = '0'; min <= 59; min++)
+		for (hours = '0'; hours <= 23; hours++)
 		{
 			_putchar((hours / 10) + '0');
 			_putchar(hours_remainder + '0');
@@ -22,7 +22,5 @@ void jack_bauer(void)
 		_putchar((min / 10) + '0');
 		_putchar(min_remainder + '0');
 	}
-		
 	_putchar('\n');
-	return;
 }
