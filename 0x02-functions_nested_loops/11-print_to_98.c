@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - entry point
+ * print_to_98 - function to print natural numbers from n to 98
+ * @n: arguement of function
  *
  * Return: 0
  */
