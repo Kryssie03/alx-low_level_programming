@@ -6,8 +6,8 @@
  */
 void jack_bauer(void)
 {
-	int min;
-	int hours;
+	int min = 0;
+	int hours = 0;
 	int min_remainder = min % 10;
 	int hours_remainder = hours % 10;
 
@@ -22,6 +22,6 @@ void jack_bauer(void)
 			_putchar(min_remainder + '0');
 		}
 		_putchar('\n');
-		return (0);
+		return ;
 	}
 }
