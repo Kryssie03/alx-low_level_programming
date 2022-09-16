@@ -9,10 +9,10 @@
 
 void print_numbers(void)
 {
-	int c;
+	int a;
 
-	for (c >= 48; c <= 57; c++)
-		putchar(c);
+	for (a >= 48; a <= 57; a++)
+		putchar(a);
 	
 	putchar('\n');
 }
