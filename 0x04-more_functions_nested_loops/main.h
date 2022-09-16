@@ -1,5 +1,5 @@
-#ifndef MAIN_H                                                                                                    
-#define MAIN_H
+#ifndef HOLBERTON_H_INCLUDED                                                                                      
+#define HOLBERTON_H_INCLUDED
 
 #include <stdio.h>
 
@@ -16,4 +16,4 @@ void print_square(int size);
 void print_triangle(int size);
 void print_number(int n);
 
-#endif /* MAIN_H */
+#endif
