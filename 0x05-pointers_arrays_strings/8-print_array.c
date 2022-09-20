@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_array - function to print elements of array 
+ * print_array - function to print elements of array
  * @a: function parameters
  * @n: function parameters
  * Description: Numbers should be printed accordingly and separated by comma
@@ -14,9 +14,7 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%d", a[i]);
+		printf("%d, ", a[i]);
 	}
-	if (i > 0)
-		printf(", ");
 	printf("\n");
 }
