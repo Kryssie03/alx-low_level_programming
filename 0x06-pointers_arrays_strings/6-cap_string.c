@@ -21,11 +21,12 @@ char *cap_string(char *n)
 		}
 
 		capt = 0;
-		for(x = 0; x <= 12; x++)
+
+		for(j = 0; j <= 12; j++)
 		{
-			if (n[i] == separators[x])
+			if (n[i] == separators[j])
 			{
-				x = 12;
+				j = 12;
 				capt = 32;
 			}
 		}
