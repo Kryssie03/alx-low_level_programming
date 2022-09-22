@@ -21,6 +21,7 @@ char *rot13(char *n)
 			if (n[i] == wr[k])
 			{
 				n[i] = rot[k];
+				break;
 			}
 		}
 	}
