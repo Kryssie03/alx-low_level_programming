@@ -3,7 +3,7 @@
 
 /**
  * cap_string - function to capitalize words
- * @n: iput
+ * @n: input
  * Return: n
  */
 
