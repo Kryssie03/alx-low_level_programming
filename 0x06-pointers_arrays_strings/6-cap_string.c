@@ -22,7 +22,7 @@ char *cap_string(char *n)
 
 		capt = 0;
 
-		for(j = 0; j <= 12; j++)
+		for (j = 0; j <= 12; j++)
 		{
 			if (n[i] == separators[j])
 			{
