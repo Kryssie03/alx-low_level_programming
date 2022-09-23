@@ -11,14 +11,14 @@ char *rot13(char *n)
 {
 	int i;
 	int k;
-	int j[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	int l[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char j[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char l[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
 		for (k = 0; k < 52; k++)
 		{
-			if (n[i] == w[j])
+			if (n[i] == j[k])
 			{
 				n[i] = l[k];
 				break;
