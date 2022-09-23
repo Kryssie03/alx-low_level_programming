@@ -11,7 +11,7 @@ char *cap_string(char *n)
 {
 	int i, j;
 	int capt = 32;
-	int separators[] = {',', ';', '.', '?', '"', '(', ')', '{', '}', ' ',  '\n', '\t'};
+	int separators[] = {',', ';', '.', '?', '"', '(', ')', '{', '}', ' ', '\n', '\t'};
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
