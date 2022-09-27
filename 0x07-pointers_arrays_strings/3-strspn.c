@@ -20,9 +20,10 @@ unsigned int _strspn(char *s, char *accept)
 			{
 				break;
 			}
-			if (!= accept[j])
-				break;
 		}
+		if (!accept[j])
+			break;
 	}
+
 	return (i);
 }
