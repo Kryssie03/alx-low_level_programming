@@ -28,8 +28,8 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		sum += atoi(argv[i]);
-		printf("%i\n", sum);
 	}
+	printf("%i\n", sum);
 	return (0);
 }
 		
