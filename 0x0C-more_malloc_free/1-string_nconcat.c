@@ -13,23 +13,27 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *arr;
-	unsigned int i, j, len, k, m;
+	unsigned int i, j, len, k;
 
 	if (s1 == NULL)
 	{
-		s1 = "";
+		i = 0;
 	}
 	else
+	{
 		for (i = 0; s1[i]; i++)
 			;
+	}
 	if (s2 == NULL)
 	{
-		s2 = "";
+		j = 0;
 	}
 	else
+	{
 		for (j = 0; s2[j]; j++)
 			;
-	if (n > j)
+	}
+	if (j > n)
 		j = n;
 
 	len = i + j;
@@ -43,8 +47,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		arr[k] = s1[k];
 	for (k = 0; k < j; k++)
 	{
-		arr[k] = s2[k + i];
+		arr[k + i] = s2[k];
 	}
-	arr[k] = '\0';
+	arr[i + j] = '\0';
 	return (arr);
 }
